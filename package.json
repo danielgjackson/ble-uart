@@ -25,6 +25,9 @@
   "dependencies": {
     "@abandonware/noble": "^1.9.2-15"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/danielgjackson/ble-uart#readme",
   "type": "module"
 }
