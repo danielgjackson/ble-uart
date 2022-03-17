@@ -14,7 +14,6 @@ Example code for `demo.mjs` (substitute `A1:B2:C3:D4:E5:F6` with your device's a
 import BleUart from '@danielgjackson/ble-uart'
 
 async function demo(address) {
-
     console.log('Scanning...')
     const bleUart = await BleUart.scanForBleUart(address)
 
