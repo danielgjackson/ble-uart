@@ -1,0 +1,30 @@
+{
+  "name": "@danielgjackson/ble-uart",
+  "version": "1.0.0",
+  "description": "Bluetooth BLE Nordic UART Client (Node.js, using noble)",
+  "exports": "index.jsm",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielgjackson/ble-uart.git"
+  },
+  "keywords": [
+    "UART",
+    "BLE",
+    "Nordic",
+    "Bluetooth",
+    "noble"
+  ],
+  "author": "Daniel Jackson <email@danieljackson.co.uk>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/danielgjackson/ble-uart/issues"
+  },
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-15"
+  },
+  "homepage": "https://github.com/danielgjackson/ble-uart#readme",
+  "type": "module"
+}
