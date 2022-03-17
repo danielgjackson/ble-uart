@@ -5,10 +5,11 @@
 // edit the blocks as below (you can paste this code in JavaScript view, and then return to Blocks view),
 // then "Download" the code to program your micro:bit.
 //
-// Important: You must first pair your computer with the micro:bit by holding down the micro:bit's _A_ + _B_ buttons 
-// while pressing the _Reset_ button on the back, then pair your computer.
-// For example, "bluetoothctl", "scan on", wait to see your device's address, "scan off", "pair A1:B2:C3:D4:E5:F6"
-// (substituting "A1:B2:C3:D4:E5:F6" with your device's address), wait to see "Pairing successful", "exit".
+// Important: Before communicating with the computer, you must first pair it with the micro:bit.  
+// Hold down the micro:bit's _A_ + _B_ buttons while pressing the "Reset" button on the back, then pair your computer.
+// e.g. On a Raspberry Pi, use: "bluetoothctl", "scan on", wait to see your device's address, "scan off", "pair A1:B2:C3:D4:E5:F6"
+// (substituting "A1:B2:C3:D4:E5:F6" with your device's address), wait to see "Pairing successful", "exit",
+// then press the "Reset" button on the back of your micro:bit to restart your application.
 //
 
 bluetooth.onBluetoothConnected(function () {
