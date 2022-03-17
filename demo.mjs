@@ -1,6 +1,6 @@
 // This demonstration is designed to communicate with a micro:bit programmed with "demo-microbit.js"
 
-import BleUart from './index.mjs'
+import BleUart from '@danielgjackson/ble-uart'
 
 //BleUart.verbose = true
 
