@@ -2,7 +2,7 @@
 
 BLE UART client using *noble*.
 
-To use the package from [npmjs.com](https://www.npmjs.com/package/@danielgjackson/ble-uart):
+To use the package from [npmjs.com](https://npmjs.com/package/@danielgjackson/ble-uart):
 
 ```bash
 npm i -s @danielgjackson/ble-uart
