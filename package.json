@@ -1,6 +1,6 @@
 {
   "name": "@danielgjackson/ble-uart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bluetooth BLE Nordic UART Client (Node.js, using noble)",
   "exports": "./index.mjs",
   "scripts": {
