@@ -31,7 +31,7 @@ async function demo(address) {
 demo('A1:B2:C3:D4:E5:F6')
 ```
 
-To run the example:
+To run the example, you must first ensure your device is paired with the computer, and that you are specifying the correct address in your code, then:
 
 ```bash
 sudo $(which node) demo.mjs
@@ -48,3 +48,5 @@ sudo setcap cap_net_raw+eip $(eval readlink -f $(which node))
 ```bash
 node demo.mjs
 ```
+
+**NOTE:** For a full example, including details about programming a micro:bit client and pairing the device with your computer, see: [sample-ble-uart.md](sample-ble-uart.md)
