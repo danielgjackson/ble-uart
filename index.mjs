@@ -49,7 +49,7 @@ export default class BleUart extends EventEmitter {
         if ((characteristics.tx.properties.indexOf('notify') >= 0 || characteristics.tx.properties.indexOf('indicate') >= 0) && (characteristics.rx.properties.indexOf('writeWithoutResponse') >= 0 || characteristics.rx.properties.indexOf('write') >= 0)) {
             this.uartTx = characteristics.tx
             this.uartRx = characteristics.rx
-        } if ((characteristics.rx.properties.indexOf('notify') >= 0 || characteristics.rx.properties.indexOf('indicate') >= 0) && (characteristics.tx.properties.indexOf('writeWithoutResponse') >= 0 || characteristics.tx.properties.indexOf('write') >= 0)) {
+        } else if ((characteristics.rx.properties.indexOf('notify') >= 0 || characteristics.rx.properties.indexOf('indicate') >= 0) && (characteristics.tx.properties.indexOf('writeWithoutResponse') >= 0 || characteristics.tx.properties.indexOf('write') >= 0)) {
             BleUart.log('UART: Using inverted Tx/Rx characteristics')
             this.uartTx = characteristics.rx
             this.uartRx = characteristics.tx
